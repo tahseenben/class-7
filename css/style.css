@@ -1,0 +1,276 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  flex: 0 0 auto;
+  scroll-behavior: smooth;
+}
+img{
+	max-width: 100%
+}
+a,a:hover{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+body{
+	font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    }
+
+.flex{
+	display: flex;
+    flex-wrap: wrap;
+
+}    
+.col-4{
+    width: 25%;
+    padding: 15px;
+}
+.col-3{
+    width: 33.33%;
+    padding: 15px;
+}
+
+.pad-y{
+	padding-bottom: 60px;
+	padding-top: 45px;
+}
+h1{
+    font-size: 45px;
+    margin-top: 15px;
+    padding-right: 141px;
+    font-weight: 800;
+}
+h1 span{
+    color: #21b573 !important;
+    font-size: 45px!important;
+    letter-spacing: 0px!important;
+}
+p{
+    margin: 35px 0px;
+    font-size: 20px;
+    color: #4d4d4d;
+    font-weight: 500;
+    padding-right: 85px;
+}
+
+.heading{text-align: center;}
+.heading h2{font-size: 35px;font-weight: 800;margin-bottom: 50px;color: #403860;}
+
+/***banner-section***/
+
+.banner-section{
+    background-color: #EFFFEF;
+}
+header{
+    padding: 20px 0px;
+}
+
+.logo{
+    width: 15%;
+    flex: 0 0 auto;
+}
+.logo a{}
+.logo a img{}
+
+nav{
+    width: 85%;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{
+    color: #393A3D;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 30px;
+    transition-duration: .3s;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    background: #21b573;
+    color: white;
+}
+
+
+.banner-content{
+    width: 45%;
+    margin: 40px 0px;
+}
+.banner-content span{
+    color: #EE693A;
+    font-size: 18px;
+    letter-spacing: .5px;
+    font-weight: 600;
+}
+
+.btn{
+    background: #21b573;
+    font-size: 18px;
+    border-radius: 30px;
+    transition-duration: .3s;
+    padding: 10px 25px;
+    color: white;
+}
+.btn:hover{}
+
+.banner-img{
+    width: 55%;
+    padding: 15px 30px;
+}
+.banner-img img{}
+
+/***feature-section***/
+
+.feature-section{
+    padding: 40px 0px;
+}
+.feature{
+    background: #efffef;
+    text-align: center;
+    padding: 40px 40px;
+    border-radius: 15px;
+    transition-duration: .3s;
+}
+.feature:hover{
+    background: white;
+    box-shadow: 0px 7px 20px #0000006b;
+}
+.feature img{height: 100px;}
+.feature h3{margin-top: 10px;color: #403860;font-size: 20px;}
+.feature p{
+}
+
+
+/***course-section***/
+
+.course-section{
+    padding: 50px 0px;
+}
+
+.course{
+    box-shadow: 0px 7px 20px #0000006b;
+    border-radius: 15px;
+    padding: 15px;
+}
+.course img{}
+.course h3{
+    margin-top: 10px;
+    color: #403860;
+    font-size: 24px;
+}
+.course span{
+    display: block;
+    font-size: 17px;
+    color: #211c37eb;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.course ul{
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.course ul li{
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333d9;
+}
+.course ul li i{}
+
+
+/****testimonial-section**/
+
+.testimonial-section{
+    padding: 50px 0px;
+}
+
+.testimonial-section .flex {
+    justify-content: center;
+    align-items: center;
+}
+.client-img{
+    width: 20%;
+    padding: 40px;
+}
+.client-img img{}
+
+.client-content{
+    width: 60%;
+    padding: 15px;
+}
+.client-content p{
+    font-size: 16px;
+    line-height: 1.6;
+    color: black;
+    font-weight: 600;
+}
+
+
+/****footer**/
+
+footer{
+    background: #39393b;
+    color: white;
+    padding-top: 40px;
+}
+footer p{
+    color: white;
+    font-size: 16px;
+    margin: 0px;
+}
+
+footer ul{}
+footer ul li{}
+footer ul li strong{
+    font-size: 18px;
+    font-weight: 700;
+}
+footer ul li a{
+    color: white;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 500;
+}
+footer ul li a:hover{}
+
+.copyright{
+    padding: 30px 0px;
+    text-align: center;
+}
+.copyright a{
+    color: #21b573;
+    font-size: 18px;
+    font-weight: 600;
+    transition-duration: .3s;
+}
+.copyright a:hover{
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
